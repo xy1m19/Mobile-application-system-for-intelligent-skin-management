@@ -14,13 +14,19 @@ Users and administrators can update personal information in the app.
 ## Login interface
 The main activity is for people entering this mobile application system. From this page, people can select their role, they can create a new account, inserting the password. What is more, they also click the Forgotten, register and login, these bottoms to complete the
 whole function. The picture is like this:
+![image](https://github.com/xy1m19/Mobile-application-system-for-intelligent-skin-management/blob/main/picture/USER.png)
 ## Main interface
 This main function interface provides the main functions of this APP for the users. The functions include: researching the productions, reading the article, making the skin test and system finishes the recommendation. This interface is the sum of all functions. When the user clicks one of the function buttons, the user can enter the next interface. At the same time, the interface also supports the back button, and the user can click the back button on other pages to return to this main function interface. The picture is like this:
+![image](https://github.com/xy1m19/Mobile-application-system-for-intelligent-skin-management/blob/main/picture/main.png)
 ## The Good detail interface
 On this interface, users can see the detailed information of each product, including: product name, product price, product category, product details, and product purchase official website address. The product detail page is also one of the core functions of the entire APP development. It displays product details to users well, and displays the real information of the product on the page, which can be used as a reference for users to purchase, and the purchase website address is attached to facilitate users to purchase. In the product detail page, I collect and upload real product photos to help users understand the product more intuitively. In the interface and function design, including reliable and true product information collection, firebase design storage, front-end interface design and back-end function design, etc. The picture is like that:
+![image](https://github.com/xy1m19/Mobile-application-system-for-intelligent-skin-management/blob/main/picture/production.png)
 ## The Skin Test interface
 During the skin test, the user will be asked to complete a four-part skin test. Mainly divided into Dry/oily, Sensitivity/tolerant, Pigment/Non - Pigment, Aging/Firming skin test. Each part of the test A total of five small problems, each A small problem with A, B, C, D four options, the user can choose according to their own skin condition, the system can determine the user's skin type, there will be four different skin types data firebase, subsequent skin recommendations are based on the user's skin type accordingly recommended. The pictures are like blow:
+![image](https://github.com/xy1m19/Mobile-application-system-for-intelligent-skin-management/blob/main/picture/questionare.png)
 ## The adding articles interface.
 This interface provides the administrator role with the ability to upload article titles, article content and pictures to this application. The picture likes that:
-##Designing for users setting information interface
+![image](https://github.com/xy1m19/Mobile-application-system-for-intelligent-skin-management/blob/main/picture/articles.png)
+## Designing for users setting information interface
 This interface is for users updating their personal information. They can edit address, age, and name.
+![image](https://github.com/xy1m19/Mobile-application-system-for-intelligent-skin-management/blob/main/picture/setting.png)
