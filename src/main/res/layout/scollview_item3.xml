@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@mipmap/cc"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SKIN TEST"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textStyle="italic"
+        android:text="Pigment / Non-Pigment "
+        android:textColor="@color/deepPink"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/select1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/transparent_db"
+        android:padding="5dp"
+        android:textColor="@color/blue"
+        android:text="Q1: Will the acne or acne on my face leave a dark acne mark?"
+        android:textSize="20sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/select1_1"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        android:background="@color/transparent_db"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/select1_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="A. Never"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="B. sometimes"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. often"
+            android:textSize="15sp"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. always like this"
+            android:textSize="15sp"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/select2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/transparent_db"
+        android:padding="5dp"
+        android:textColor="@color/blue"
+        android:text="Q2: After being cut, how long will the brown mark (not the pink scar on the new healing) remain:"
+        android:textSize="20sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/select1_2"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:padding="10dp"
+        android:background="@color/transparent_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/select1_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="A.left no mark or paid attention "
+            />
+
+        <RadioButton
+            android:id="@+id/select1_2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="B. 1 week"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. several weeks"
+            android:textSize="15sp"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. months"
+            android:textSize="15sp"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/select3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/transparent_db"
+        android:textColor="@color/blue"
+        android:padding="5dp"
+        android:text="Q3: Have you ever had dark spots or patches on your face?"
+        android:textSize="20sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/select1_3"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:padding="10dp"
+        android:background="@color/transparent_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/select1_3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="A. No"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="B. I ’m not sure"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. Yes, but not sure"
+            android:textSize="15sp"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. Yes, and very obvious"
+            android:textSize="15sp"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/select4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/transparent_db"
+        android:padding="5dp"
+        android:textColor="@color/blue"
+        android:text="Q4. No exposure for a few months When you are exposed for the first time, your skin feels:"
+        android:textSize="20sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/select1_4"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        android:background="@color/transparent_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/select1_4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="A.Burning but not tanned"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="B. Burning and darkening of the skin"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_4_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. ust darkening directly"
+            android:textSize="15sp"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_4_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. My skin is already deep, and I can’t tell if it will get deeper"
+            android:textSize="15sp"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/select5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/transparent_db"
+        android:padding="5dp"
+        android:textColor="@color/blue"
+        android:text="When you are exposed to sunlight for several days, what will happen to your skin?"
+        android:textSize="20sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/select1_5"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        android:background="@color/transparent_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/select1_5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="A. Sunburn or even blistering, but my skin tone hasn't changed much"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="B. It will be tanned some"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. It will become very dark"
+            android:textSize="15sp"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_5_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. My skin tone is already very dark and I can't tell whether it will become darker"
+            android:textSize="15sp"
+            />
+
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/test3_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="submit"
+            android:layout_marginEnd="100dp"
+            android:textSize="20dp"
+            android:background="@drawable/type_button"/>
+
+        <Button
+            android:id="@+id/test3_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="back"
+            android:textSize="20dp"
+            android:background="@drawable/type_button" />
+    </LinearLayout>
+
+</LinearLayout>

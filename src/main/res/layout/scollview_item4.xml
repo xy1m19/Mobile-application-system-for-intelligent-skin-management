@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/cc"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="SKIN TEST"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textStyle="italic"
+        android:text="Wrinkle / Firming"
+        android:textColor="@color/deepPink"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/select1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp"
+        android:background="@color/transparent_db"
+        android:textColor="@color/blue"
+        android:text="Q1. Are there any wrinkles on your face?"
+        android:textSize="20sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/select1_1"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        android:background="@color/transparent_db"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/select1_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="A. No, there are no wrinkles even when smiling, frowning, raising eyebrows"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="B. Wrinkles only appear when I smile, frown, and raise my eyebrows"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. Yes, there are wrinkles when I do expressions, and some wrinkles when I do not"
+            android:textSize="15sp"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="D. Even if there is no expression, there are many wrinkles"
+            android:textSize="15sp"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/select2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp"
+        android:background="@color/transparent_db"
+        android:textColor="@color/blue"
+        android:text="Q2: How old is your mother's facial skin?"
+        android:textSize="20sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/select1_2"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        android:background="@color/transparent_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/select1_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="A.1-5 years younger than their peers"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="B. Like other people of the same age"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. 5 years older than his peers"
+            android:textSize="15sp"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. Look older than 5 years old"
+            android:textSize="15sp"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/select3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp"
+        android:background="@color/transparent_db"
+        android:textColor="@color/blue"
+        android:text="Q3. How old is your father's facial skin?"
+        android:textSize="20sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/select1_3"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:background="@color/transparent_db"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/select1_3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="A. 1-5 years younger than their peers"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="B. Like other people of the same age"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. 5 years older than his peers"
+            android:textSize="15sp"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. Look older than 5 years old"
+            android:textSize="15sp"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/select4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp"
+        android:background="@color/transparent_db"
+        android:textColor="@color/blue"
+        android:text="Q4: How much sunshine do you receive in the area where you live?"
+        android:textSize="20sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/select1_4"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        android:background="@color/transparent_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/select1_4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="A.Dominated by cloudy days"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="B. Some, not very strong "
+            />
+
+        <RadioButton
+            android:id="@+id/select1_4_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. Moderate sunshine"
+            android:textSize="15sp"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_4_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. Tropical, southern or places with long sunshine"
+            android:textSize="15sp"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/select5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp"
+        android:background="@color/transparent_db"
+        android:textColor="@color/blue"
+        android:text="Q7: In all the past time, how much did you smoke (forced to inhale secondhand smoke)?"
+        android:textSize="20sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/select1_5"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        android:background="@color/transparent_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/select1_5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="A. No smoking"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="B. Occasionally one or two roots"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. Smoking almost every day, but not much"
+            android:textSize="15sp"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_5_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. Smoking every day and many roots"
+            android:textSize="15sp"
+            />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/test4_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="submit"
+            android:layout_marginEnd="100dp"
+            android:textSize="20dp"
+            android:background="@drawable/type_button"/>
+
+        <Button
+            android:id="@+id/test4_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="back"
+            android:textSize="20dp"
+            android:background="@drawable/type_button" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@mipmap/cc"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="SKIN TEST"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textStyle="italic"
+        android:text="OIL/DRY"
+        android:textColor="@color/deepPink"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/select1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/transparent_db"
+        android:text="Q1: After washing your face, do not apply any products to your face. After 2-3 hours, how is your skin?"
+        android:textColor="@color/blue"
+        android:textSize="20sp" />
+
+
+    <RadioGroup
+        android:id="@+id/select1_1"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:background="@color/transparent_db"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/select1_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="A. Very rough and dull"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="B. There is still a sense of tightness"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. No tightness, no shine"
+            android:textSize="15sp"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. A noticeable shine"
+            android:textSize="15sp"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/select2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/transparent_db"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="Q2: In your previous photos, is your face even shiny?"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/select1_2"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:padding="10dp"
+        android:background="@color/transparent_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/select1_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="A.Never "
+            />
+
+        <RadioButton
+            android:id="@+id/select1_2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="B. Sometimes"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. often"
+            android:textSize="15sp"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. This has always been the case"
+            android:textSize="15sp"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/select3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:background="@color/transparent_db"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="Q3: I use a foundation without powder or loose powder. After 2-3 hours, how does your makeup look like?"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/select1_3"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/transparent_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/select1_3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="A. Peeling flakes "
+            />
+
+        <RadioButton
+            android:id="@+id/select1_3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="B. Good makeup"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. Shiny"
+            android:textSize="15sp"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. I never use foundation"
+            android:textSize="15sp"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/select4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent_db"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="Q4: In a dry environment, if no skin care products are used, what will happen to your facial skin?"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/select1_4"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/transparent_db"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/select1_4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="A.It feels very dry or tingling"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="B. It feels tight"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_4_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. It feels normal"
+            android:textSize="15sp"
+            />
+
+        <RadioButton
+            android:id="@+id/select1_4_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. I don’t know"
+            android:textSize="15sp"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/select5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/transparent_db"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Q5: Looking in a mirror, which parts of your face have enlarged pores?"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/select1_5"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        android:background="@color/transparent_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/select1_5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="A. Not at all."
+            />
+
+        <RadioButton
+            android:id="@+id/select1_5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="B. There are some in the T area (forehead and nose)."
+            />
+
+        <RadioButton
+            android:id="@+id/select1_5_3"
+            android:layout_width="130dp"
+            android:layout_height="49dp"
+            android:text="C. There are also"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/select1_5_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. I do not know"
+            android:textSize="15sp" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/test_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="submit"
+            android:layout_marginEnd="100dp"
+            android:textSize="20dp"
+            android:background="@drawable/type_button"/>
+
+        <Button
+            android:id="@+id/test_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="back"
+            android:textSize="20dp"
+            android:background="@drawable/type_button" />
+    </LinearLayout>
+
+
+</LinearLayout>

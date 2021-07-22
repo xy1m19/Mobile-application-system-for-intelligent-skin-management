@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Skinmanagementapp</string>
+    <string name="testView_Email">Email</string>
+    <string name="testView_Password">Password</string>
+    <string name="textView_Forgotten">Forgotten</string>
+    <string name="textView_Sign">Sign</string>
+    <string name="textView_Register">Register</string>
+    <string name="choose_role">Role</string>
+    <string name="user_register_lastname">Last name</string>
+    <string name="user_register_firstname">First name</string>
+    <string name="user_register_email">Email</string>
+    <string name="user_register_password">Password</string>
+    <string name="user_register_age">Age</string>
+    <string name="user_register_address">Address:</string>
+    <string name="user_register_line1">Line1</string>
+    <string name="user_register_line2">Line2</string>
+    <string name="user_register_line3">Line3</string>
+    <string name="user_register_post">Post</string>
+    <string name="user_register_submit">Submit</string>
+    <string name="admin_register_lastname">Last name</string>
+    <string name="admin_register_firstname">First name</string>
+    <string name="admin_register_email">Email</string>
+    <string name="admin_register_password">Password</string>
+    <string name="admin_register_conform_password">Conform Password</string>
+    <string name="admin_register_submit">Submit</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+
+
+    <string-array name="Role">
+        <item>User</item>
+        <item>Manager</item>
+    </string-array>
+    >
+
+</resources>
