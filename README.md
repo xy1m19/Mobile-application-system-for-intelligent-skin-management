@@ -9,7 +9,7 @@ of questionnaires. According to the user's answers, the system gives the users t
 4.This APP use the recommendation algorithm to recommend the suitable products to users according to the users’ skin type.
 Managers can publish the articles on the system, and users refresh the page on the client side to see the latest article content.
 Users and administrators can update personal information in the app.
-![image]()
+
 # Page results and Performance
 ## Login interface
 The main activity is for people entering this mobile application system. From this page, people can select their role, they can create a new account, inserting the password. What is more, they also click the Forgotten, register and login, these bottoms to complete the
