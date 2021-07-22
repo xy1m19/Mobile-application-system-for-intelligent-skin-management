@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.skinmanagementapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Admin.AdminSettingInformation" />
+        <activity android:name=".Admin.Admin_Register"/>
+        <activity android:name=".User.UserSettingInformation"/>
+        <activity android:name=".User.UserRegister"/>
+        <activity android:name=".test.test_main"/>
+        <activity android:name=".test.test"/>
+        <activity android:name=".test.test2"/>
+        <activity android:name=".test.test3"/>
+        <activity android:name=".test.test4"/>
+
+
+
+
+
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".article.ArticleMainActivity" />
+        <activity android:name=".article.ArticleDetails" />
+        <activity android:name=".article.AddArticleActivity" />
+        <activity android:name=".User.UserHomeActivity" />
+        <activity android:name=".User.GoodListActivity" />
+        <activity android:name=".User.GoodDetailActivity" />
+        <activity android:name=".User.banner_1" />
+        <activity android:name=".User.binner_1_web" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".User.GoodSearchActivity" />
+    </application>
+
+</manifest>
+
+
